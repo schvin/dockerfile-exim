@@ -1,4 +1,7 @@
 dockerfile-exim
 ===============
 
-note local_domains
+XXX
+
+* note local_domains
+* note linkage for fetchmail

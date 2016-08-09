@@ -1,7 +1,7 @@
-FROM ubuntu:trusty
+FROM ubuntu:xenial
 MAINTAINER George Lewis <schvin@schvin.net>
 
-ENV REFRESHED_AT 2014-11-18
+ENV REFRESHED_AT 2016-08-09
 RUN apt-get update --fix-missing -y && apt-get upgrade -y 
 RUN apt-get install -y exim4
 
